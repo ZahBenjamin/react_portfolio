@@ -21,7 +21,7 @@ export default function Footer() {
               </a>
             </span>
             <span className="fs-2 me-4">
-              <a className="col-12 text-decoration-none text-primary" href="https://linkedin.com/in/BenjaminZah">
+              <a className="col-12 text-decoration-none text-primary" href="https://www.linkedin.com/in/benjamin-zah-786760141">
                 <FaLinkedin />
               </a>
             </span>

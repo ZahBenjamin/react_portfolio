@@ -1,21 +1,32 @@
 import React from 'react';
+import benZah from '../../assets/images/ben_icon.png';
+import '../../styles/Home.css';
+
 
 export default function Home() {
+  const styles = {
+    benImage: {
+      maxHeight: '15em',
+    },
+  };
+
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div style={{ padding: 15 }}>
+      <div className='container' style={{textAlign: 'center',}}>
+        <h2 style={{textAlign: 'center'}}>About</h2>
+        <img src={benZah} style={{width: 200, height: 200, borderRadius: 200/ 2}} alt='Ben image' />
+
+
+        <p>
+          Full-Stack developer that is competent in MERN stack and learning ruby-on-rails. Focused on back-end while learning all relevant skills.
+        </p>
+        <p>
+          In my free time I can be found training Brazilian Jiu Jitsu, baking, playing guitar, or hanging out with my cats.
+        </p>
+        <p>
+          Art done by <a href="https://www.instagram.com/MoosewatcherZ/">Moose!</a>
+        </p>
+      </div>
     </div>
   );
 }

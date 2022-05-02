@@ -2,21 +2,24 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+    <div style={{padding: 15}}>
+    <div className='container'>
+    <h2>Contact Me</h2>
+    <p>
+      Please use the form or one of the social media links below to contact me. Thanks!
+    </p>
+    <form>
+<div className="form-group">
+  <label for="InputEmail">Email address</label>
+  <input type="email" className="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email"></input>
+</div>
+<div className="form-group">
+  <label for="TextArea">Why are you reaching out?</label>
+  <textarea className="form-control" id="TextArea" rows="3"></textarea>
+</div>
+<button style={{marginTop: '5px'}} type="submit" className="btn btn-primary">Submit</button>
+</form>
+      </div>
+  </div>
+);
 }

@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.1c22e42d.css",
-    "main.js": "/react_portfolio/static/js/main.c8bc2972.js",
+    "main.js": "/react_portfolio/static/js/main.d346b008.js",
     "static/media/gitGet.gif": "/react_portfolio/static/media/gitGet.ba7ec9852fe5eeb38e7a.gif",
     "static/media/tagAlong.gif": "/react_portfolio/static/media/tagAlong.06f75a3d7560a8c08b4f.gif",
     "static/media/ben_icon.png": "/react_portfolio/static/media/ben_icon.9d318a55699c01197bc0.png",
     "static/media/socialmediaapi.gif": "/react_portfolio/static/media/socialmediaapi.e44cd34137dd87c9e98a.gif",
+    "static/media/pwGen.gif": "/react_portfolio/static/media/pwGen.fe33cdf885cfb8dfd21f.gif",
     "static/media/readmeGenerator.gif": "/react_portfolio/static/media/readmeGenerator.32ef1a35fd0876c39785.gif",
+    "static/media/codeQuiz.gif": "/react_portfolio/static/media/codeQuiz.9ad5ac679881c64b2e81.gif",
     "index.html": "/react_portfolio/index.html",
     "main.1c22e42d.css.map": "/react_portfolio/static/css/main.1c22e42d.css.map",
-    "main.c8bc2972.js.map": "/react_portfolio/static/js/main.c8bc2972.js.map"
+    "main.d346b008.js.map": "/react_portfolio/static/js/main.d346b008.js.map"
   },
   "entrypoints": [
     "static/css/main.1c22e42d.css",
-    "static/js/main.c8bc2972.js"
+    "static/js/main.d346b008.js"
   ]
 }

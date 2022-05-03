@@ -3,6 +3,8 @@ import TagAlong from '../../assets/images/tagAlong.gif';
 import ReadmeGen from '../../assets/images/readmeGenerator.gif';
 import GitGif from '../../assets/images/gitGet.gif';
 import smAPI from '../../assets/images/socialmediaapi.gif';
+import codeQuiz from '../../assets/images/codeQuiz.gif';
+import pwGen from '../../assets/images/pwGen.gif';
 
 import { IoLogoJavascript } from 'react-icons/io';
 import { FaBootstrap } from 'react-icons/fa';
@@ -50,7 +52,7 @@ export default function Portfolio() {
           <div className="card overflow-hidden m-3">
             <div className="card-header text-white bg-primary">Git Get Gifs</div>
             <div style={{ width: '100%', textAlign: 'center' }}>
-              <img  src={GitGif} style={{ paddingTop: '5px' }} height="500px" alt='Weather Widget'></img>
+              <img  src={GitGif} style={{ paddingTop: '5px' }} height="500px" alt='Movie Gif Gif'></img>
             </div>
             <div className="card-body">
                <p className='card-text'>
@@ -76,6 +78,36 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          <div className='col-12 col-md-6'>
+          <div className="card overflow-hidden m-3">
+            <div className="card-header text-white bg-primary">JavaScript Code Quiz</div>
+            <div style={{ width: '100%', textAlign: 'center' }}>
+              <img  src={codeQuiz} style={{ paddingTop: '5px' }} height="500px" alt='Code Quiz Gif'></img>
+            </div>
+            <div className="card-body">
+               <p className='card-text'>
+                tools used: &ensp; <IoLogoJavascript /> 
+                </p>
+              <a href="https://zahbenjamin.github.io/simple_code_quiz/" target="_blank" rel='noreferrer' className='card-link'>Deployed App</a>&nbsp;
+              <a href="https://github.com/ZahBenjamin/simple_code_quiz" target="_blank" rel='noreferrer' className='card-link'>Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div className='col-12 col-md-6'>
+          <div className="card overflow-hidden m-3">
+            <div className="card-header text-white bg-primary">Password Generator</div>
+            <div style={{ width: '100%', textAlign: 'center' }}>
+              <img  src={pwGen} style={{ paddingTop: '5px' }} height="500px" alt='Password Generator Gif'></img>
+            </div>
+            <div className="card-body">
+               <p className='card-text'>
+                tools used: &ensp; <IoLogoJavascript />  
+                </p>
+              <a href="https://zahbenjamin.github.io/password_generator/" target="_blank" rel='noreferrer' className='card-link'>Deployed App</a>&nbsp;
+              <a href="https://github.com/ZahBenjamin/password_generator" target="_blank" rel='noreferrer' className='card-link'>Github Repo</a>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>

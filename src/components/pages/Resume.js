@@ -29,7 +29,7 @@ export default function Resume() {
          <li>Insomnia</li>
        </ul>
       </p>
-      <a href='../../assets/Resume.BenZah.docx.pdf' style={{textDecoration: 'none'}}><BsDownload /> Download resume pdf</a>
+      <a href='../../assets/Resume.BenZah.docx.pdf' style={{textDecoration: 'none'}} download><BsDownload /> Download resume pdf</a>
     </div>
     </div>
   );

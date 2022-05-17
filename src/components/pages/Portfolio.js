@@ -13,6 +13,7 @@ import { FaBootstrap, FaReact } from 'react-icons/fa';
 import { BsDiscord, BsTelegram } from 'react-icons/bs';
 import { DiMongodb, DiRuby, DiNodejs } from 'react-icons/di';
 import { SiInsomnia, SiGraphql } from 'react-icons/si';
+import './portfolio.css';
 
 export default function Portfolio() {
   return (

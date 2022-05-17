@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import classNames from 'classnames';
 
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const [showNav, setShowNav] = useState(false);
+  const navBarStyle = classNames({
+    "collapse": true,
+    "navbar-collapse": true,
+    "show": showNav,
+  });
   return (
     <nav className='navbar navbar-expand-lg navbar-dark bg-secondary'>
-      <div class="container-fluid">
-    <a class="navbar-brand" href="#">Benjamin Zah | Dev</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <div className="container-fluid">
+    <a className="navbar-brand" href="https://github.com/ZahBenjamin">Benjamin Zah | Dev</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded={showNav} aria-label="Toggle navigation" onClick={() => setShowNav(prev => !prev)}>
+      <span className="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse">
+    <div className={navBarStyle}>
     <ul className="navbar-nav me-auto">
       <li className="nav-item">
         <a

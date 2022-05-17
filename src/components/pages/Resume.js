@@ -15,6 +15,7 @@ export default function Resume() {
          <li>JQuery</li>
          <li>NPM</li>
          <li>React</li>
+         <li>Ruby</li>
        </ul>
       </p>
       <p> Back end proficiencies:
@@ -22,7 +23,10 @@ export default function Resume() {
          <li>Express</li>
          <li>NodeJS</li>
          <li>MVC Framework</li>
-         <li>Rails</li>
+         <li>Ruby on Rails</li>
+         <li>MySQL</li>
+         <li>MongooseDB</li>
+         <li>Insomnia</li>
        </ul>
       </p>
       <a href='../../assets/Resume.BenZah.docx.pdf' style={{textDecoration: 'none'}}><BsDownload /> Download resume pdf</a>

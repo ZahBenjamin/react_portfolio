@@ -10,12 +10,12 @@ export default function Resume() {
        <ul>
          <li>HTML</li>
          <li>CSS</li>
-         <li>CSS</li>
          <li>Javascript</li>
          <li>JQuery</li>
          <li>NPM</li>
          <li>React</li>
          <li>Ruby</li>
+         <li>Python</li>
        </ul>
       </p>
       <p> Back end proficiencies:
@@ -26,6 +26,8 @@ export default function Resume() {
          <li>Ruby on Rails</li>
          <li>MySQL</li>
          <li>MongooseDB</li>
+         <li>GraphQL</li>
+         <li>APIs</li>
          <li>Insomnia</li>
        </ul>
       </p>

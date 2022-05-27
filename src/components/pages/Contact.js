@@ -6,7 +6,7 @@ export default function Contact() {
     <div className='container'>
     <h2>Contact Me</h2>
     <p>
-      Please use the form or one of the social media links below to contact me. Thanks!
+      Not currently functioning, reach out by email at bz@benzah.com.
     </p>
     <form>
 <div className="form-group">
